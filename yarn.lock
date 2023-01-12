@@ -1181,6 +1181,13 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
   integrity sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==
 
+"@types/bent@^7.3.3":
+  version "7.3.3"
+  resolved "https://registry.yarnpkg.com/@types/bent/-/bent-7.3.3.tgz#b8daa06e72219045b3f67f968d590d3df3875d96"
+  integrity sha512-5NEIhVzHiZ6wMjFBmJ3gwjxwGug6amMoAn93rtDBttwrODxm+bt63u+MJA7H9NGGM4X1m73sJrAxDapktl036Q==
+  dependencies:
+    "@types/node" "*"
+
 "@types/eslint@8.4.10":
   version "8.4.10"
   resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-8.4.10.tgz#19731b9685c19ed1552da7052b6f668ed7eb64bb"
@@ -1209,7 +1216,7 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.2.tgz#ee771e2ba4b3dc5b372935d549fd9617bf345b8c"
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
-"@types/node@18.11.18":
+"@types/node@*", "@types/node@18.11.18":
   version "18.11.18"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.18.tgz#8dfb97f0da23c2293e554c5a50d61ef134d7697f"
   integrity sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==
